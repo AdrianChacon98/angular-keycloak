@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row" *ngIf="foo">
+    <div class="col-md-6 mx-auto">
+
+      <div class="card">
+
+        <div class="card-header text-center">
+          Detalle
+        </div>
+          <ul class="list-group  group-flush">
+            <li class="list-group-item" ><b>ID:</b>{{foo.id}}</li>
+            <li class="list-group-item" ><b>name:</b>{{foo.name}}</li>
+          </ul>
+
+          <div class="card-footer text-center">
+            <button class="btn btn-outline-primary" (click)="volver()"><i class="fas fa-circle-left"></i>Volver</button>
+          </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
